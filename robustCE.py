@@ -127,7 +127,7 @@ elif modelType == 'probit':
         pdf = norm.pdf(t)
         cdf = norm.cdf(t)
         cdf = np.clip(cdf, 1e-6, 1 - 1e-6) # Avoid division by zero
-        return - X.T @ np.diag(omega * pdf / (1-cdf)**2 * ((-t*(cdf)+pdf) + Y / cdf ** 2 * (t * cdf * (1-cdf) + (1-2*cdf)*pdf))) @ X - lambda_*np.eye(n)
+        return - X.T @ np.diag(omega * pdf / (1-cdf)**2 * ((-t*(1-cdf)+pdf) + Y / cdf ** 2 * (t * cdf * (1-cdf) + (1-2*cdf)*pdf))) @ X - lambda_*np.eye(n)
     
 else:
     print('Invalid model type')
