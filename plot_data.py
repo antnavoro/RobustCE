@@ -145,7 +145,7 @@ plt.savefig(f'paper/pareto_{modelType}.png', dpi=150)
 
 
 
-columns = load_data(dataset, False, False)[-4].columns
+columns = load_data(dataset)[-2].columns
 for percentile in percentiles:
     percentile = str(percentile)
     x_max = [result[3][1:] for result in data0[percentile]]
