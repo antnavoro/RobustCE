@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from load_data import load_data
+from load_dataset import load_data
 import pandas as pd
 import matplotlib.cm as cm
 
