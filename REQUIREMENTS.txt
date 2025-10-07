@@ -1,0 +1,10 @@
+For the results of the experiments contained in this repository, Python 3.12.8 and Gurobi 12.0.1 were used. These experiments were conducted on a MacBook Pro equipped with an Apple M4 Pro chip (12 cores: 8 performance and 4 efficiency), 48 GB of RAM, and running macOS Sequoia 15.1 (64-bit).
+
+List of packages and versions:
+numpy 2.2.2
+pandas 2.2.3
+sklearn 1.6.1
+matplotlib 3.10.0
+seaborn 0.13.2
+gurobipy 12.0.1
+scipy 1.15.1
