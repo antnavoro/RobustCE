@@ -1,5 +1,5 @@
 # RobustCE
-Code to generate counterfactual explanations based on the paper "Robust counterfactual explanations in classification and regression" by Emilio Carrizosa, Antonio Navas-Orozco. The preprint can be found here: https://www.researchgate.net/publication/392923891_Robust_counterfactual_explanations_in_classification_and_regression
+Code to generate counterfactual explanations based on the paper "Robust counterfactual explanations in classification and regression" by Emilio Carrizosa, Antonio Navas-Orozco. The paper can be found here: https://www.sciencedirect.com/science/article/pii/S0377221726001888
 
 For the results of the experiments contained in this repository, Python 3.12.8 and Gurobi 12.0.1 were used. These experiments were conducted on a MacBook Pro equipped with an Apple M4 Pro chip (12 cores: 8 performance and 4 efficiency), 48 GB of RAM, and running macOS Sequoia 15.1 (64-bit).
 
